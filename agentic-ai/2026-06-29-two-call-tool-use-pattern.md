@@ -46,6 +46,31 @@ then hands the results back to Claude.
 
 Claude is the brain. Your code is the hands.
 
+### 4. (b) => b.type === "tool_use"
+This line tripped me up:
+```javascript
+const toolUse = response.content.find((b) => b.type === "tool_use");
+```
+
+`response.content` is an array of blocks Claude sends back — it can include
+text AND a tool request in the same response. `.find()` loops through the
+array and returns the first item that matches a condition.
+
+`(b) => b.type === "tool_use"` is an arrow function — shorthand for:
+```javascript
+function(b) {
+    return b.type === "tool_use";
+}
+```
+`b` just stands for "the block currently being checked." The condition asks
+"does this block's type equal 'tool_use'?" and `.find()` returns the first
+one that does.
+
+Using `.find()` instead of `response.content[0]` matters because Claude's
+response order isn't guaranteed — text and tool_use could come in either
+order. `.find()` searches by type, not position, so it's more reliable.
+
+
 ## What I Now Understand
 
 **The full two-call flow:**
