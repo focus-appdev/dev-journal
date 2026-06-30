@@ -56,3 +56,26 @@ three activities.
 - Swimming and biking already cover the aerobic base for all three
 - No overhaul needed — just sprinkle targeted movements into existing
   Mon/Wed/Fri sessions
+
+  ---
+
+## Exercise Frequency Notes
+
+### Safe for Daily Use
+| Exercise | Notes |
+|----------|-------|
+| Stair climbing (moderate pace) | Low load, treat as active recovery not training |
+| Bodyweight squats | Low enough load to recover overnight |
+| Calf raises | Recover quickly, fine daily |
+| Band work (lateral walks, external rotation) | Low load, great daily layer |
+| Stretching / mobility | Always safe, big payoff for skiing and tennis |
+
+### 2-3x Per Week Only (48hr Recovery Needed)
+| Exercise | Notes |
+|----------|-------|
+| Bulgarian split squats | Demanding on quads and hip flexors, daily use risks knee and hip injury |
+| Weighted step-ups | Same recovery needs as BSS |
+| Box jumps | Explosive work needs full recovery |
+
+**Rule of thumb:** Stairs and band work are your daily layer.
+Heavy unilateral work stays on gym days (Mon/Wed/Fri).
