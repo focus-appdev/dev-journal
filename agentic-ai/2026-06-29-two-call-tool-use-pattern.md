@@ -46,6 +46,15 @@ then hands the results back to Claude.
 
 Claude is the brain. Your code is the hands.
 
+## What I Now Understand
+
+**The full two-call flow:**
+Send question + tool menu  →
+←    "I need search_inventory({ make: 'truck' })"
+Call inventory API yourself →
+Send results back          →
+←    "Yes, you have 3 trucks available..."
+
 
 **Promises in one sentence:**
 `new Promise` is JavaScript's way of saying "this will take a moment —
@@ -82,7 +91,3 @@ Coming in with only intro JS, the async patterns and the two-call
 structure were the hardest parts. Understanding that Claude is the
 decision-maker but your code does the actual work was the unlock.
 This pattern will show up everywhere in agentic AI development.
-
-## What I Now Understand
-
-**The full two-call flow:**
